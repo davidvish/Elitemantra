@@ -1,0 +1,223 @@
+h2::before,
+h2::after {
+    display: inline-block;
+    content: "";
+    border-top: .3rem solid rgb(21, 72, 240);
+    width: 4rem;
+    margin: 0 1rem;
+    transform: translateY(-1rem);
+}
+/* ------------------------------------
+    06. Breadcrumbs Section CSS
+---------------------------------------*/
+
+.rs-breadcrumbs {
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner {
+  padding: 140px 0 150px;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner .page-title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 5px;
+  color: #ffffff;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner .page-title.new-title {
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner ul {
+  padding: 0;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner ul li {
+  color: #ffffff;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner ul li a {
+  position: relative;
+  padding-right: 22px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  color: #ffffff;
+}
+
+.rs-breadcrumbs .breadcrumbs-inner ul li a:before {
+  background-color: #fff;
+  content: "";
+  height: 15px;
+  width: 1px;
+  position: absolute;
+  right: 9px;
+  top: 2px;
+  transform: rotate(26deg);
+}
+.about-section img{
+
+    min-width: 100%;
+    max-height: 380px;
+}
+/* ------------------------------------
+    05. About Section CSS
+---------------------------------------*/
+
+.rs-about .rs-animation-shape {
+  position: relative;
+  z-index: 1;
+}
+
+.rs-about .rs-animation-shape .pattern {
+  position: absolute;
+  top: 22px;
+}
+
+.rs-about .rs-animation-shape .middle {
+  position: absolute;
+  left: -165px;
+  top: -56px;
+  z-index: -1;
+}
+
+.rs-about .rs-animation-shape .bottom-shape {
+  position: absolute;
+  left: -165px;
+  top: 395px;
+  z-index: -1;
+}
+
+.rs-about .rs-animation-shape .middle-image2 {
+  position: absolute;
+  top: -80px;
+  left: -25px;
+  z-index: -1;
+}
+
+.rs-about .shape-image {
+  position: relative;
+}
+
+.rs-about .shape-image .top {
+  position: absolute;
+  right: 51%;
+  top: -125px;
+}
+
+.rs-about .shape-image .bottom {
+  position: absolute;
+  right: 0;
+  top: 145px;
+}
+
+.rs-about.style2 {
+  background-color: #F6F7F9;
+  border-radius: 0px 270px 0px 0px;
+  position: relative;
+}
+
+.rs-about.style2 .image-part {
+  position: absolute;
+  left: 35px;
+}
+
+.rs-about.style2 .image-part img {
+  max-width: 50%;
+}
+
+.rs-about.style2.modify1 {
+  background-color: unset;
+  border-radius: unset;
+  position: unset;
+}
+
+.rs-about.style2.modify1 .images {
+  left: unset;
+  position: unset;
+}
+
+.rs-about.style2.modify1 .images img {
+  max-width: 600px;
+}
+
+.rs-about.style2.modify2 {
+  border-radius: unset;
+  position: relative;
+}
+
+.rs-about.style2.modify2 .about-img img {
+  max-width: 690px;
+}
+
+.rs-about.style3 {
+  position: relative;
+}
+
+.rs-about.style3 .rs-animation-image .pattern-img {
+  text-align: center;
+  z-index: -1;
+}
+
+.rs-about.style3 .rs-animation-image .middle-img {
+  position: absolute;
+  left: 10px;
+  top: -30px;
+}
+
+.rs-about.style4 .about-content .logo-img {
+  margin-bottom: 15px;
+}
+
+.rs-about.style4 .about-content .logo-img img {
+  width: 71px;
+}
+
+.rs-about.style4 .about-content .title {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  color: #102B3E;
+  margin-bottom: 30px;
+  padding-right: 24px;
+}
+
+.rs-about.style4 .about-content .title span {
+  color: #F9780F;
+}
+
+.rs-about.style4 .about-content p {
+  padding-right: 121px;
+  margin-bottom: 40px;
+}
+
+.rs-about.style5 {
+  position: relative;
+  z-index: 1;
+}
+
+.rs-about.style5 .about-bg {
+  background-color: #F5F6FE;
+  opacity: 0.8;
+}
+
+.rs-about.style5 .about-bg .about-animate {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -11;
+}
+
+.rs-about .software-img img {
+  max-width: 600px;
+}
+
+
+
